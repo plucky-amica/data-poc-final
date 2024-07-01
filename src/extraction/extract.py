@@ -6,6 +6,7 @@ def extract_data():
     data = response.json()
     print("Data extracted:", data)
     return data
+    print('hello')
 
 if __name__ == "__main__":
     extract_data()
